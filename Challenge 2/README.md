@@ -1,0 +1,2 @@
+In this project I created a personal portfolio to display information about myself for a potential employer. i used HTML and CSS to create this portfolio. I created a series of sections to allow one to get an idea of my coding as as working experince. In order to make my portfolio unique I tried to make it interactive. Therefore I added a glowing title as well as a moving backgorund for the aesthetic purposes.
+

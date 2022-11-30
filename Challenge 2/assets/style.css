@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.content{
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+}
+.content h1{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: Brush Script MT;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 150px;
+  text-align: center;
+}
+.glow {
+  color: #fff;
+  text-shadow:
+
+    0 0 15px black,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    
+    0 0 42px rgb(8, 247, 16),
+    0 0 82px rgb(8, 247, 16),
+    0 0 92px rgb(8, 247, 16),
+    0 0 102px rgb(8, 247, 16),
+    0 0 151px rgb(8, 247, 16);
+}
+
+
+.box ul li{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  list-style: none;
+  opacity: 0;
+  background: radial-gradient(rgb(8, 247, 16), transparent, transparent);
+  bottom: o;
+  left: 10vw;
+  animation: animate 15s linear infinite;
+
+}
+.box ul li:nth-child(2){
+  left: 37vw;
+  animation-delay: 2s;
+}
+.box ul li:nth-child(3){
+  left: 25vw;
+  animation-delay: 4s;
+}
+.box ul li:nth-child(4){
+  left: 60vw;
+  animation-delay: 6s;
+}
+.box ul li:nth-child(5){
+  left: 75vw;
+  animation-delay: 4s;
+}
+.box ul li:nth-child(2){
+  left: 37vw;
+  animation-delay: 2s;
+}
+.box ul li:nth-child(3){
+  left: 25vw;
+  animation-delay: 4s;
+}
+.box ul li:nth-child(4){
+  left: 60vw;
+  animation-delay: 6s;
+}
+.box ul li:nth-child(5){
+  left: 75vw;
+  animation-delay: 4s;
+}
+@keyframes animate {
+  0%{
+    transform: scale(0);
+    opacity: 1;
+    bottom: 0;
+  }
+  100%{
+    transform: scale(10);
+    opacity: 0;
+    bottom: 100vh;
+  }
+}
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: rgb(8, 247, 16);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: rgb(3, 108, 27);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color:rgb(8, 247, 16);
+}
+#home {
+background-color: #000;
+color: white
+}
+
+#aboutme {
+font: size 30px; 
+background-color: #000;
+color: white
+  
+}
+#resume {
+background-color: #000;
+color: white
+}
+ 
+
+#contactme {
+background-color: #000;
+color: white      
+}
+a {
+  color: white;
+}
+#projects {
+background-color: #000;
+color: white
+
+}
+
